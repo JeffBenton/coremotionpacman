@@ -13,6 +13,10 @@
 		1FA049F11AF7E4D70080EC3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA049F01AF7E4D70080EC3A /* Images.xcassets */; };
 		1FA049F41AF7E4D70080EC3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA049F21AF7E4D70080EC3A /* LaunchScreen.xib */; };
 		1FA04A001AF7E4D70080EC3A /* coreMotion_HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA049FF1AF7E4D70080EC3A /* coreMotion_HackathonTests.swift */; };
+		1FA04A0A1AF828410080EC3A /* PacmanWakaWaka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FA04A091AF828410080EC3A /* PacmanWakaWaka.mp3 */; };
+		1FA04A0C1AF828F10080EC3A /* PacmanOpeningSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FA04A0B1AF828F10080EC3A /* PacmanOpeningSong.mp3 */; };
+		1FA04A0E1AF82A4C0080EC3A /* PacmanDies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FA04A0D1AF82A4C0080EC3A /* PacmanDies.mp3 */; };
+		1FA04A101AF82AF50080EC3A /* PacmanEatingGhost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FA04A0F1AF82AF50080EC3A /* PacmanEatingGhost.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		1FA049F91AF7E4D70080EC3A /* coreMotion HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coreMotion HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA049FE1AF7E4D70080EC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FA049FF1AF7E4D70080EC3A /* coreMotion_HackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreMotion_HackathonTests.swift; sourceTree = "<group>"; };
+		1FA04A091AF828410080EC3A /* PacmanWakaWaka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PacmanWakaWaka.mp3; path = SFX_Pacman/PacmanWakaWaka.mp3; sourceTree = SOURCE_ROOT; };
+		1FA04A0B1AF828F10080EC3A /* PacmanOpeningSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PacmanOpeningSong.mp3; path = SFX_Pacman/PacmanOpeningSong.mp3; sourceTree = SOURCE_ROOT; };
+		1FA04A0D1AF82A4C0080EC3A /* PacmanDies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PacmanDies.mp3; path = SFX_Pacman/PacmanDies.mp3; sourceTree = SOURCE_ROOT; };
+		1FA04A0F1AF82AF50080EC3A /* PacmanEatingGhost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PacmanEatingGhost.mp3; path = SFX_Pacman/PacmanEatingGhost.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,10 @@
 				1FA049E91AF7E4D70080EC3A /* AppDelegate.swift */,
 				1FA049EB1AF7E4D70080EC3A /* ViewController.swift */,
 				1FA049ED1AF7E4D70080EC3A /* Main.storyboard */,
+				1FA04A0F1AF82AF50080EC3A /* PacmanEatingGhost.mp3 */,
+				1FA04A0D1AF82A4C0080EC3A /* PacmanDies.mp3 */,
+				1FA04A0B1AF828F10080EC3A /* PacmanOpeningSong.mp3 */,
+				1FA04A091AF828410080EC3A /* PacmanWakaWaka.mp3 */,
 				1FA049F01AF7E4D70080EC3A /* Images.xcassets */,
 				1FA049F21AF7E4D70080EC3A /* LaunchScreen.xib */,
 				1FA049E71AF7E4D70080EC3A /* Supporting Files */,
@@ -192,8 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA04A0A1AF828410080EC3A /* PacmanWakaWaka.mp3 in Resources */,
 				1FA049EF1AF7E4D70080EC3A /* Main.storyboard in Resources */,
+				1FA04A0C1AF828F10080EC3A /* PacmanOpeningSong.mp3 in Resources */,
+				1FA04A0E1AF82A4C0080EC3A /* PacmanDies.mp3 in Resources */,
 				1FA049F41AF7E4D70080EC3A /* LaunchScreen.xib in Resources */,
+				1FA04A101AF82AF50080EC3A /* PacmanEatingGhost.mp3 in Resources */,
 				1FA049F11AF7E4D70080EC3A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
